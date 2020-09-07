@@ -16,6 +16,6 @@ This data pack is inspired by my experiences playing Talonos's excellent [Blight
 
 While the pack is titled "Viral Purpurs", it should be posssible to apply viral behavior to any block(s) of your choice by editing the tags.
 
-Note: I take no responsibility damage that infections may cause to your world! Once data packs become more powerful I might be able to add ways of "curing" blocks, but don't expect anything any time soon. 
+Note: I take no responsibility for damage this pack causes to your world! Take particular care if you've placed Purpur blocks near anything important, or vice-versa. Once data packs become more powerful I might be able to add ways of "curing" large outbreaks, but don't expect anything anytime soon. 
 
 *Currently a work in progress.* 
