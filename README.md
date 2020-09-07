@@ -16,6 +16,6 @@ This data pack is inspired by my experiences playing the [Blightfall](https://ww
 
 While the pack is titled "Viral Purpurs", it should be posssible to apply viral behavior to any block(s) of your choice by editing the tags.
 
-*Currently a work in progress.* 
+Note: I take no responsibility damage that infections may cause to your world! Once data packs become more powerful I might be able to add ways of "curing" blocks, but don't expect anything any time soon. 
 
-Note: I take no responsibility damage that purpur infections may cause to your world (in fact, that's the main point of this mod ^^)
+*Currently a work in progress.* 
