@@ -5,9 +5,10 @@ Infecting Minecraft worlds since 2020.
 **WARNING: BEFORE INSTALLING, BACK UP YOUR WORLD!**
 
 ---
-Purpura: Noun  
-  - A rash of purple spots on the skin caused by internal bleeding from small blood vessels
-      - Any of several diseases characterized by a purple rash.
+*Purpura: Noun*
+
+A rash of purple spots on the skin caused by internal bleeding from small blood vessels.
+  - Any of several diseases characterized by a purple rash.
     
 ---
 
