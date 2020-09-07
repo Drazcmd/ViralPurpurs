@@ -1,2 +1,2 @@
 # ViralPurpurs
-Infecting your worlds since 2020
+Infecting Minecraft worlds since 2020.
