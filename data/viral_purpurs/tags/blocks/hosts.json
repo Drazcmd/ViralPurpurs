@@ -1,0 +1,32 @@
+{
+  "replace": false,
+  "values": [
+    // NOTE - not loading right now. Might be due to these comments? TODO TODO
+    // WARNING: Uncommenting these can be VERY destructive. BACK UP YOUR WORLD FIRST!
+    /*
+        "#minecraft:base_stone_overworld",
+        "#minecraft:base_stone_nether",
+        "#minecraft:logs",
+        "#minecraft:sand",
+        "#minecraft:ice",
+        "#minecraft:mushroom_grow_block",
+
+        // Here be (even more) dragons!
+        // Making these sorts of "processed" blocks susceptible can make large infections
+        // brutally difficult to control (hope you've stocked up on glass!)
+        // "#minecraft:planks",
+        // "#minecraft:stone_bricks",
+        // "#minecraft:fences",
+        // "#minecraft:walls",
+        // "#minecraft:slabs",
+        // "#minecraft:stairs",
+    */
+
+    // Default hosts. These will make The End scary, but are less likely to break peoples'
+    // builds if they slap the data pack on by accident
+    "minecraft:end_stone",
+    "minecraft:end_stone_brick_slab",
+    "minecraft:end_stone_brick_wall",
+    "minecraft:end_stone_brick_stairs"
+  ]
+}
