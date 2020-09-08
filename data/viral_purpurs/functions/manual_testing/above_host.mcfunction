@@ -1,4 +1,7 @@
 # WARNING: First two checks work executed directly, but still having trouble running the function / predicate themselves
+# TODO: Make this return false correctly when on a carpet above a host
+# Currently we seem to be ignoring carpets inbetween in this check (as in, says true when standing on carpet that's above a host)
+
 
 # Check if the block below the player has the "host" block tag
 execute at @p if block ~ ~-1 ~ #viral_purpurs:host run say Block below tagged host?: YES

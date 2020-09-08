@@ -1,4 +1,5 @@
 # WARNING: First two checks work executed directly, but still having trouble running the function / predicate themselves
+# TODO: Veriy this returns false correctly when on a carpet above the virus
 
 # Check if the block below the player has the "virus" block tag
 execute at @p if block ~ ~-1 ~ #viral_purpurs:virus run say Block below tagged viral?: YES
