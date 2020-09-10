@@ -13,4 +13,4 @@ execute at @p positioned ~ ~-.001 ~ if predicate viral_purpers:is_host run say .
 execute at @p positioned ~ ~-.001 ~ unless predicate viral_purpers:is_host run say ...and predicate says host?: NO
 
 # loops itself - clear by schedule clear <name>
-schedule function viral_purpurs:debugging/above_host 1s
+schedule function viral_purpurs:debugging/player_on_host 1s

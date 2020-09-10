@@ -14,4 +14,4 @@ execute at @p positioned ~ ~-.001 ~ unless predicate viral_purpers:is_virus_bud 
 
 
 # loops itself - clear by schedule clear <name>
-schedule function viral_purpurs:debugging/above_virus_bud 1s
+schedule function viral_purpurs:debugging/player_on_virus_bud 1s
