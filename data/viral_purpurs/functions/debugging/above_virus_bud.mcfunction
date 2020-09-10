@@ -8,3 +8,7 @@ execute at @p unless block ~ ~-1 ~ #viral_purpurs:bud run say Block below tagged
 # Note: does NOT always match above (only matches if the block two below is a "virus block")
 execute at @p positioned ~ ~-1 ~ if predicate viral_purpers:is_virus_bud run say ...and predicate says viral bud?: YES
 execute at @p positioned ~ ~-1 ~ unless predicate viral_purpers:is_virus_bud run say ...and predicate says viral bud?: NO
+
+
+# loops itself - clear by schedule clear <name>
+schedule function viral_purpurs:debugging/above_virus_bud 1s

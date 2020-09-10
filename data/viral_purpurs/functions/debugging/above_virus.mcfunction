@@ -9,3 +9,6 @@ execute at @p unless block ~ ~-1 ~ #viral_purpurs:virus run say Block below tagg
 # Note: Should always match the "virus" tag check
 execute at @p positioned ~ ~-1 ~ if predicate viral_purpers:is_virus run say ...and predicate says viral?: YES
 execute at @p positioned ~ ~-1 ~ unless predicate viral_purpers:is_virus run say ...and predicate says viral?: NO
+
+# loops itself - clear by schedule clear <name>
+schedule function viral_purpurs:debugging/above_virus 1s

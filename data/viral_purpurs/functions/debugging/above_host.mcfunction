@@ -11,3 +11,6 @@ execute at @p unless block ~ ~-1 ~ #viral_purpurs:host run say Block below tagge
 # Note: Should always match the "host" tag check
 execute at @p positioned ~ ~-1 ~ if predicate viral_purpers:is_host run say ...and predicate says host?: YES
 execute at @p positioned ~ ~-1 ~ unless predicate viral_purpers:is_host run say ...and predicate says host?: NO
+
+# loops itself - clear by schedule clear <name>
+schedule function viral_purpurs:manual_testing/above_host 1s
