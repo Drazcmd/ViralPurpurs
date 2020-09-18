@@ -9,8 +9,8 @@ execute at @p unless block ~ ~-.001 ~ #viral_purpurs:host run say Block below ta
 
 # Check if the "is_host" predicate thinks the block below the player is a "host"
 # Note: Should always match the "host" tag check
-execute at @p positioned ~ ~-.001 ~ if predicate viral_purpurs:is_host run say ...and predicate says host?: YES
-execute at @p positioned ~ ~-.001 ~ unless predicate viral_purpurs:is_host run say ...and predicate says host?: NO
+execute at @p positioned ~ ~-.001 ~ if predicate viral_purpurs:block/is_host run say ...and predicate says host?: YES
+execute at @p positioned ~ ~-.001 ~ unless predicate viral_purpurs:block/is_host run say ...and predicate says host?: NO
 
 # loops itself - clear by schedule clear <name>
 schedule function viral_purpurs:debugging/player_on_host 1s

@@ -9,8 +9,8 @@ execute at @p unless block ~ ~-.001 ~ #viral_purpurs:bud run say Block below tag
 
 # Check if the "is_virus_bud" predicate thinks the block below the player is a "virus bud"
 # Note: does NOT always match above (only matches if the block two below is a "virus block")
-execute at @p positioned ~ ~-.001 ~ if predicate viral_purpurs:is_virus_bud run say ...and predicate says viral bud?: YES
-execute at @p positioned ~ ~-.001 ~ unless predicate viral_purpurs:is_virus_bud run say ...and predicate says viral bud?: NO
+execute at @p positioned ~ ~-.001 ~ if predicate viral_purpurs:block/is_virus_bud run say ...and predicate says viral bud?: YES
+execute at @p positioned ~ ~-.001 ~ unless predicate viral_purpurs:block/is_virus_bud run say ...and predicate says viral bud?: NO
 
 
 # loops itself - clear by schedule clear <name>
