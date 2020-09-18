@@ -4,13 +4,49 @@
     "condition": "minecraft:alternative",
     "terms": [
       {
-        "condition": "minecraft:location_check",
-        "predicate": { "block": { "tag": "viral_purpurs:bud" } }
+        "condition": "minecraft:inverted",
+        "term": {
+          "condition": "minecraft:location_check",
+          "predicate": { "block": { "tag": "viral_purpurs:bud" } }
+        }
       },
       { 
-        "condition": "minecraft:location_check",
-        "offsetY"  : -1,
-        "predicate": { "block": { "tag": "viral_purpurs:virus" } }
+        "condition": "minecraft:inverted",
+        "term": {
+          "condition": "minecraft:alternative",
+          "terms": [ 
+            {
+              "condition": "minecraft:location_check",
+              "offsetY"  : -1,
+              "predicate": { "block": { "tag": "viral_purpurs:virus" } }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "offsetY"  : 1,
+              "predicate": { "block": { "tag": "viral_purpurs:virus" } }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "offsetX"  : -1,
+              "predicate": { "block": { "tag": "viral_purpurs:virus" } }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "offsetX"  : 1,
+              "predicate": { "block": { "tag": "viral_purpurs:virus" } }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "offsetZ"  : -1,
+              "predicate": { "block": { "tag": "viral_purpurs:virus" } }
+            },
+            {
+              "condition": "minecraft:location_check",
+              "offsetZ"  : 1,
+              "predicate": { "block": { "tag": "viral_purpurs:virus" } }
+            }
+          ]
+        }
       }
     ]
   }

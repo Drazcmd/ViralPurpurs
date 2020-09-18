@@ -8,7 +8,6 @@ execute at @p if block ~ ~-.001 ~ #viral_purpurs:host run say Block below tagged
 execute at @p unless block ~ ~-.001 ~ #viral_purpurs:host run say Block below tagged host?: NO
 
 # Check if the "is_host" predicate thinks the block below the player is a "host"
-# Note: Should always match the "host" tag check
 execute at @p positioned ~ ~-.001 ~ if predicate viral_purpurs:block/is_host run say ...and predicate says host?: YES
 execute at @p positioned ~ ~-.001 ~ unless predicate viral_purpurs:block/is_host run say ...and predicate says host?: NO
 
