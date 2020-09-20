@@ -1,4 +1,4 @@
 {
   "condition": "minecraft:location_check",
-  "predicate": { "block": { "tag": "viral_purpurs:host" } }
+  "predicate": { "block": { "tag": "viral_purpurs:virus" } }
 }
