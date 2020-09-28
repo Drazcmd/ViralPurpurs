@@ -1,5 +1,10 @@
 # ViralPurpurs
 
+**EDIT: CURRENTLY REDESIGNING**
+
+Turns out the core functionality I had planned is infeasible, since there's not a good way to make 'viral' blocks perform the infection behavior every tick. Target selectors only select players or entities, can't use them to grab arbitrary blocks sadly. Looks like I need to go back to the drawing board and come up something more entity-centric. Best idea I've had so far is creating *small* numbers of armor stands or player heads which will then continually fill the space around them with blocks. The trick is going to be making their survival tied to the amount of purpur stuff around them. Perhaps I should make them indestructible so long as there are purpur blocks within a certain range of them?
+
+---
 Infecting Minecraft worlds since 2020.
 
 **WARNING: BEFORE INSTALLING, BACK UP YOUR WORLD!**
